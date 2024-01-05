@@ -7,7 +7,7 @@
         if ($result->num_rows > 0){
             while ($row = $result->fetch_assoc()){
                 echo '<div class="card">';
-                echo '<img src="images/blog.jpeg" style="height: 10rem;" class="card-img-top" alt="...">';
+                echo '<img src="images.php/'.$row["project_image"].'" style="height: 10rem;" class="card-img-top" alt="...">';
                 echo '<div class="card-body">';
                 echo '<div class="icons">';
                 echo '<h5 id="title">'.$row["project_title"].'</h5>';

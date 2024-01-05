@@ -18,7 +18,7 @@ if(isset($_REQUEST['addProject'])){
     $description = $_REQUEST['description'];
     $image = $_FILES['image']['name'];
     $image_temp = $_FILES['image']['tmp_name'];
-    $image_folder = "../images/projects/".$image;
+    $image_folder = "../images.php/".$image;
     move_uploaded_file($image_temp,$image_folder);
 
 
@@ -42,7 +42,7 @@ if(isset($_REQUEST['addProject'])){
 <div class="col-sm-9 col-md-9 mt-5">
     <div class="row align-items-center">
         <div class="col-sm-4 " >
-            <form method="POST" class="bg-info p-2">
+            <form method="POST" class="bg-info p-2" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="title" class="form-label">Project Title</label>
                     <input type="text" class="form-control" name="title" >
