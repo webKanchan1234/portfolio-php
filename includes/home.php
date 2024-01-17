@@ -9,7 +9,7 @@
                     </h2>
                     <h4 class="typewriter"></h4>
                     <p>
-                        I'm a professional Front-end developer with over 1.5 years of experience. Specializing in creating visually appealing and responsive websites using the latest web technologies like HTML, CSS, Javascript, and React.
+                        I'm a professional Front-end developer with over 1.5 years of experience. Specializing in creating visually appealing and responsive websites using the latest web technologies like HTML, CSS, Javascript, React, and Node.
                     </p>
                     <a href="assets/Resume.pdf" download="Resume" id='resume'>Download CV</a>
                 </div>
