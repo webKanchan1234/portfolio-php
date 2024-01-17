@@ -1,11 +1,11 @@
 <?php
 $db_host="localhost";
-$db_user="u353209250_portfolio";
 // $db_user="root";
-$db_password="Kanchan@123...";
 // $db_password="";
-$db_name="u353209250_portfolio";
 // $db_name="portfolio";
+$db_user="u353209250_portfolio";
+$db_name="u353209250_portfolio";
+$db_password="Kanchan@123...";
 $db_port=3306;
 
 // create connection

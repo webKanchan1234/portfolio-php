@@ -16,7 +16,7 @@
                 echo '<i id="icon1" class="fa-brands fa-github"></i>';
                 echo '</a>';
                 echo '<a href="'.$row["project_url"].'">';
-                echo '<i id="icon" class="material-icons">language</i>';
+                echo '<i id="icon1" class="fa-solid fa-globe"></i>';
                 echo '</a>';
                 echo '</div>';
                 echo '</div>';

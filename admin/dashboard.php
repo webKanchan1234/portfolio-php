@@ -16,10 +16,14 @@ $sql = "SELECT * FROM projects_tb";
 $result = $conn->query($sql);
 $totalProjects = $result->num_rows;
 
+$sql = "SELECT * FROM messages_tb";
+$result = $conn->query($sql);
+$totalMessages = $result->num_rows;
+
 ?>
-<div class="col-sm-9 col-md-9">
-    <div class="row text-center mx-5 text-white">
-        <div class="col-sm-4 mt-5">
+<div class="col">
+    <div class="row text-center mx-sm-1 text-white">
+        <div class="col mt-5">
             <div class="card text-center bg-danger mb-3" style="max-width: 18rem;">
                 <div class="card-header text-white">Projects</div>
                 <div class="card-body">
@@ -39,9 +43,9 @@ $totalProjects = $result->num_rows;
         </div>
         <div class="col-sm-4 mt-5">
             <div class="card text-center bg-info mb-3" style="max-width: 18rem;">
-                <div class="card-header text-white">Projects</div>
+                <div class="card-header text-white">Messages</div>
                 <div class="card-body">
-                    <h4 class="card-title text-white">5</h4>
+                    <h4 class="card-title text-white"><?php echo $totalMessages ?></h4>
                     <a href="" class="btn text-white">view</a>
                 </div>
             </div>

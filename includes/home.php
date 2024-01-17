@@ -16,7 +16,7 @@
             </div>
             <div class="col-6 header-right">
                 <div class='profile-div'>
-                    <img src="images/profile.jpeg" class='profile' alt="profile" />
+                    <img src="images.php/profile.jpeg" class='profile' alt="profile" />
                 </div>
             </div>
         </div>

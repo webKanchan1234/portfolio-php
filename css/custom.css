@@ -137,7 +137,6 @@
 }
 
 #icon {
-    font-size: 1.5vmax;
     margin: 0.5vmax;
     background-color: black;
     border-radius: 50%;
@@ -222,8 +221,11 @@
     }
 
     #icon {
-        font-size: 2.8vmax;
-
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
