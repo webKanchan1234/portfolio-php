@@ -45,7 +45,7 @@ if (isset($_REQUEST['submitMessage'])) {
     <div class='contacts'>
         <h3 id='about'> Contact us</h3>
         <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col col-lg-4">
                 <form method="POST" class="bg p-2">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
