@@ -212,10 +212,13 @@
     .about-right {
         width: 100%;
     }
-
-    #skill {
+    .skill{
         width: 95%;
-        margin: 0.5vmax 0;
+    }
+    #skill {
+        width: 98%;
+        margin: 1vmax 0;
+        background-color: red;
     }
 
     #icon {
