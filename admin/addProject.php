@@ -14,7 +14,7 @@ if(isset($_SESSION['is_admin'])){
 if(isset($_REQUEST['addProject'])){
     $title = $_REQUEST['title'];
     $github = $_REQUEST['github'];
-    $url = $_REQUEST['github'];
+    $url = $_REQUEST['url'];
     $description = $_REQUEST['description'];
     $image = $_FILES['image']['name'];
     $image_temp = $_FILES['image']['tmp_name'];
